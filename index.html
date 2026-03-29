@@ -144,7 +144,7 @@
             </section>
 
             <!-- About Section Shortcut -->
-        <section id="about" class="py-24 bg-neutral-900 border-t border-neutral-800">
+        <section id="about" class="py-24 bg-neutral-800 border-t border-neutral-800">
              <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
                  <div>
                     <span class="text-amber-500 font-bold tracking-wider text-sm uppercase mb-2 block">Tentang Kami</span>
@@ -152,14 +152,16 @@
                     <p class="text-white/70 text-lg mb-6 leading-relaxed">Studiolpg mewadahi para pendidik kreatif untuk membagikan karya media dan bahan ajar secara gratis. Setiap kontribusi Anda memberikan poin yang akan menempatkan Anda di Podium Leaderboard kami!</p>
                     <button onclick="navigate('kontributor')" class="bg-amber-500/10 text-amber-500 border border-amber-500/50 hover:bg-amber-500 hover:text-neutral-900 font-bold px-6 py-3 rounded-xl transition-colors">Lihat  Leaderboard  Kontributor</button>
                  </div>
-                 <iframe 
-                                            className="w-full h-full absolute top-0 left-0" 
-                                            src="https://www.youtube.com/embed/GCoNenNnOzI?playsinline=1&modestbranding=1&rel=0" 
-                                            title="Video Pembelajaran" 
-                                            frameBorder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                            allowFullScreen>
-                                        </iframe>
+                 <div class="relative w-full aspect-video rounded-2xl overflow-hidden shadow-xl border border-neutral-800/50">
+    <iframe 
+        class="absolute top-0 left-0 w-full h-full" 
+        src="https://www.youtube.com/watch?v=b6W75iPKU6A?playsinline=1&modestbranding=1&rel=0" 
+        title="Video Pembelajaran" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
              </div>
         </section>
 		
